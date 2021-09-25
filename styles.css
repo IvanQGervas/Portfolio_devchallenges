@@ -56,12 +56,13 @@ body{
     width: 100%;
     height: 360px;
     margin-bottom: 24px;
+    overflow: hidden;
 }
 
-#cotenedor-imagen-perfil img{
-    width: 100%;
+#cotenedor-imagen-perfil > img{
     height: 100%;
     object-fit: cover;
+    object-position: -80px;
 }
 
 #barra-lateral h1{
